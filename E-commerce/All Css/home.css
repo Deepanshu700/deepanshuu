@@ -1,0 +1,116 @@
+
+
+span{
+    color: rgb(149, 128, 58);
+}
+.span-color1{
+    color: chocolate;
+}
+
+/* trending section */
+.half-bg{
+    width: 100%;
+    height:300px ;
+    background-color: rgb(37, 36, 36);
+}
+.img-margin{
+    margin-left: 300px;
+    
+}
+.img-margin1{
+    margin-left: 50px;
+    
+}
+.img-margin2{
+    margin-left: 50px;
+    
+}
+
+/* Trending products */
+.con-margin{
+    margin-top:3rem;
+}
+
+a #trending1{
+    transition: 0.5s;
+    width:600px;
+    height: 600px;
+    margin-left:20px ;
+    margin-top: 5px;
+}
+
+a #trending1:hover{
+    border-radius: 10%;
+
+
+}
+#cardimg{
+    width:18rem;
+}
+
+/* ICON CSS */
+.fa-star{
+    color: yellowgreen;
+}
+
+@media only screen and  (max-width: 395px){
+    #cinner, #cimg{
+        width: 392px;
+        height:392px;
+    }
+    #carouselExampleCaptions {
+        width: 392px;
+        height:392px;
+    }
+    #trending{
+        width:300px;
+        height: 300px;
+        margin-left:14px ;
+        margin-top: 10px;
+    }
+    a #trending1{
+        width:150px;
+        height: 150px;
+        margin-left:20px ;
+        margin-top: 5px;
+    }
+    #cardimg{
+        width:9rem;
+        margin-left:10px;
+        margin-bottom:10px;
+        
+    }
+  
+}
+
+@media only screen and (max-width: 420px){
+    #cinner, #cimg{
+        width: 412px;
+        height:412px;
+       
+    }
+    #carouselExampleCaptions {
+        width: 412px;
+        height:412px;
+    }
+    #trending{
+        width:300px;
+        height: 300px;
+        margin-left:30px ;
+        margin-top: 10px;
+    }
+    a #trending1{
+        width:150px;
+        height: 150px;
+        margin-left:30px ;
+        margin-top: 10px;
+    }
+    #cardimg{
+        width:9rem;
+        margin-left:10px;
+        margin-bottom:10px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+  
+}

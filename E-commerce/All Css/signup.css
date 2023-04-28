@@ -1,0 +1,32 @@
+.containerr{
+    margin: 20px 10%;
+}
+
+body{
+    background-image: url("../images/image3.jpg ");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    color: rgb(255, 255, 255);
+    margin-top: 3rem;
+  }
+input{
+    padding: 5px;
+    margin: 20px;
+    margin-top: 3rem;
+    background-color: black;
+}
+.input{
+   
+   text-align: center;
+}
+.register{
+padding: 3px;
+}
